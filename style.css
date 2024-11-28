@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: #9b287b;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.container .forms{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 16px;
+    width: 100%;
+}
+
+ h1{
+font-size: 24px;
+align-items: center;
+display: flex;
+justify-content: center;
+width: 100%;
+color: #5c164e ;
+flex-wrap: wrap;
+}
+
+label{
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #a3a3a3;
+}
+input[type="text"], input[type="email"], input[type="password"]{
+    border: 0;
+    background-color:#e7e3e3 ;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+
+input[type="submit"] {
+    background-color: #9B287B;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+input{
+    display: flex;
+    gap: 8px;
+    width: 260px;
+}
+.campoForm{
+    display: flex;
+    flex-direction: column;
+}
